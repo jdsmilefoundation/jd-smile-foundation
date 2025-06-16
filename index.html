@@ -8,25 +8,27 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f0f9ff;
+      background: #f5fbff;
       color: #333;
     }
     header {
       background: #00aaff;
       color: #fff;
       text-align: center;
-      padding: 50px 20px;
+      padding: 60px 20px;
     }
     header img {
       width: 120px;
       border-radius: 50%;
+      margin-bottom: 20px;
     }
     header h1 {
-      margin: 15px 0 10px;
+      margin: 10px 0 5px;
       font-size: 48px;
     }
     header p {
       font-size: 20px;
+      margin: 5px 0 20px;
     }
     nav {
       background: #0077aa;
@@ -43,36 +45,47 @@
       text-decoration: underline;
     }
     section {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 40px auto;
       padding: 0 20px;
     }
     section h2 {
       color: #0077aa;
     }
-    section img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin: 20px 0;
+    .button {
+      background: #0077aa;
+      color: #fff;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 5px;
     }
-    .social-links {
+    .button:hover {
+      background: #005577;
+    }
+    .images img {
+      max-width: 100%;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+    .social-icons {
       text-align: center;
       margin: 30px 0;
     }
-    .social-links a {
+    .social-icons a {
+      margin: 0 10px;
       display: inline-block;
-      margin: 10px;
-      text-decoration: none;
     }
-    .social-links img {
+    .social-icons img {
       width: 40px;
-      height: 40px;
+      vertical-align: middle;
     }
     iframe {
       width: 100%;
       height: 800px;
       border: none;
-      margin: 20px 0;
+      margin: 40px 0;
     }
     footer {
       background: #0077aa;
@@ -83,69 +96,78 @@
   </style>
 </head>
 <body>
+
   <header>
-    <img src="logo.png" alt="JD Smile Foundation Logo">
+    <img src="Logo.png" alt="JD Smile Logo">
     <h1>JD Smile Foundation</h1>
-    <p>Hasi ছড়াও, ভালোবাসা ছড়াও</p>
+    <p>Hasi ছড়াও, ভালোবাসা ছড়াও | Aapki Hasi, Humari Khushi</p>
+    <a href="#donate" class="button">Donate Now</a>
+    <a href="#contact" class="button">Contact Us</a>
   </header>
 
   <nav>
     <a href="#about">About</a>
     <a href="#work">Our Work</a>
+    <a href="#future">Future Plans</a>
     <a href="#form">Join Us</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <section id="about">
-    <h2>About Us</h2>
-    <p>
-      JD Smile Foundation aims to spread smiles and hope among underprivileged children, women, and marginalized communities. 
-      We focus on education, health, food drives, and environmental protection. 
-      In the future, we plan to open skill development centers, organize regular medical camps, and launch large-scale awareness campaigns to protect nature and empower communities.
-    </p>
-    <img src="about1.png" alt="Environmental Work">
-    <img src="about2.png" alt="Feeding Smiles">
+    <h2>About JD Smile Foundation</h2>
+    <p>JD Smile Foundation is a community-driven NGO dedicated to spreading smiles through education, health support, and social empowerment. We work tirelessly to bring smiles back on the faces of underprivileged children, women, and marginalised communities. Our mission is to build a compassionate society where everyone lives with dignity and joy.</p>
+  </section>
+
+  <section class="images">
+    <img src="About1.png" alt="Environment Protection">
+    <img src="About2.png" alt="Feeding Smiles">
   </section>
 
   <section id="work">
     <h2>Our Work</h2>
     <ul>
-      <li>Education and Skill Development</li>
-      <li>Free Health Check-ups and Camps</li>
-      <li>Food and Clothing Drives</li>
-      <li>Women Empowerment Workshops</li>
-      <li>Environmental Protection Initiatives</li>
-      <li>Community Awareness Programs</li>
+      <li>Providing free education and school supplies to needy children.</li>
+      <li>Organising free health camps and awareness drives.</li>
+      <li>Food distribution drives for homeless and slum areas.</li>
+      <li>Women empowerment through skill training and self-help groups.</li>
+      <li>Environmental campaigns: tree plantation and clean-up drives.</li>
+    </ul>
+  </section>
+
+  <section id="future">
+    <h2>Our Future Plans</h2>
+    <p>In the coming years, JD Smile Foundation aims to:</p>
+    <ul>
+      <li>Establish free evening schools in remote villages.</li>
+      <li>Build a community kitchen to feed 500+ people daily.</li>
+      <li>Launch skill-development centers for unemployed youth.</li>
+      <li>Expand environmental projects to plant 10,000+ trees.</li>
+      <li>Collaborate with other NGOs for larger impact nationwide.</li>
     </ul>
   </section>
 
   <section id="form">
     <h2>Join Us</h2>
-    <p>Fill up the form below to join our mission:</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfltehCN-2okxGDPVck6QE9kYUj9lL5rC1gzj5V8S_zR2X5xQ/viewform?embedded=true" 
-      frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <p>Want to be a part of our journey? Fill out the form below to volunteer or collaborate with us:</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfltehCN-2okxGDPVck6QE9kYUj9lL5rC1gzj5V8S_zR2X5xQ/viewform?embedded=true">Loading…</iframe>
   </section>
 
   <section id="contact">
-    <h2>Contact & Social Media</h2>
-    <div class="social-links">
-      <a href="https://chat.whatsapp.com/Iaf1WU6qBmJL5RBL0HwZWS" target="_blank">
-        <img src="whatsapp.png" alt="WhatsApp">
-      </a>
-      <a href="https://www.facebook.com/profile.php?id=61577680492558" target="_blank">
-        <img src="facebook.png" alt="Facebook">
-      </a>
-      <a href="https://www.instagram.com/jdsmilefoundation?igsh=MWVkc3VhMTR0cWRtcg==" target="_blank">
-        <img src="instagram.png" alt="Instagram">
-      </a>
-      <a href="https://www.youtube.com/@Jdsmilefoundation" target="_blank">
-        <img src="youtube.png" alt="YouTube">
-      </a>
+    <h2>Contact Us</h2>
+    <p>Email: jdsmilefoundation@gmail.com</p>
+    <p>Phone: +91-9475543551</p>
+    <p>Address: Kolkata, West Bengal, India</p>
+    <div class="social-icons">
+      <a href="https://chat.whatsapp.com/Iaf1WU6qBmJL5RBL0HwZWS" target="_blank"><img src="Whatsapp.png" alt="WhatsApp"></a>
+      <a href="https://www.facebook.com/profile.php?id=61577680492558" target="_blank"><img src="Facebook.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/jdsmilefoundation?igsh=MWVkc3VhMTR0cWRtcg==" target="_blank"><img src="Instagram.png" alt="Instagram"></a>
+      <a href="https://www.youtube.com/@Jdsmilefoundation" target="_blank"><img src="YouTube.png" alt="YouTube"></a>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 JD Smile Foundation | Spreading smiles, one step at a time 🌼</p>
+    <p>&copy; 2025 JD Smile Foundation | Made with ❤️ to spread smiles everywhere</p>
   </footer>
+
 </body>
 </html>
