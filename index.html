@@ -5,132 +5,147 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>JD Smile Foundation</title>
   <style>
-    /* Reset some default styles */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body, html { height: 100%; font-family: Arial, sans-serif; }
-
-    /* Background image for header */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f9ff;
+      color: #333;
+    }
     header {
-      background: url('https://source.unsplash.com/1600x600/?children,smile,charity') no-repeat center center/cover;
-      height: 80vh;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 0 20px;
-    }
-    header h1 {
-      font-size: 60px;
-      text-shadow: 2px 2px 4px #000;
-    }
-    header p {
-      font-size: 24px;
-      margin: 20px 0;
-      text-shadow: 1px 1px 3px #000;
-    }
-    .button {
       background: #00aaff;
       color: #fff;
-      padding: 15px 30px;
-      text-decoration: none;
-      border-radius: 5px;
-      margin: 10px;
-      font-size: 18px;
-      transition: background 0.3s;
+      text-align: center;
+      padding: 50px 20px;
     }
-    .button:hover {
-      background: #0077aa;
+    header img {
+      width: 120px;
+      border-radius: 50%;
     }
-
+    header h1 {
+      margin: 15px 0 10px;
+      font-size: 48px;
+    }
+    header p {
+      font-size: 20px;
+    }
     nav {
       background: #0077aa;
       text-align: center;
+      padding: 10px 0;
     }
     nav a {
       color: #fff;
       text-decoration: none;
-      padding: 15px 20px;
-      display: inline-block;
+      margin: 0 15px;
+      font-weight: bold;
     }
     nav a:hover {
-      background: #005577;
+      text-decoration: underline;
     }
-
     section {
-      max-width: 1000px;
-      margin: 50px auto;
+      max-width: 900px;
+      margin: 40px auto;
       padding: 0 20px;
     }
-    h2 {
+    section h2 {
       color: #0077aa;
-      margin-bottom: 20px;
     }
-    ul {
-      margin-left: 20px;
+    section img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
     }
-
+    .social-links {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+    }
+    .social-links img {
+      width: 40px;
+      height: 40px;
+    }
     iframe {
       width: 100%;
-      height: 1500px;
+      height: 800px;
       border: none;
+      margin: 20px 0;
     }
-
     footer {
       background: #0077aa;
       color: #fff;
       text-align: center;
-      padding: 30px 20px;
+      padding: 20px;
     }
   </style>
 </head>
 <body>
-
   <header>
+    <img src="logo.png" alt="JD Smile Foundation Logo">
     <h1>JD Smile Foundation</h1>
-    <p>Spread Smiles, Spread Love</p>
-    <a href="#form" class="button">Donate Now</a>
-    <a href="#contact" class="button">Contact Us</a>
+    <p>Hasi ছড়াও, ভালোবাসা ছড়াও</p>
   </header>
 
   <nav>
-    <a href="#about">About Us</a>
+    <a href="#about">About</a>
     <a href="#work">Our Work</a>
-    <a href="#form">Donate</a>
+    <a href="#form">Join Us</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <section id="about">
     <h2>About Us</h2>
-    <p>Our mission is to spread happiness and smiles among underprivileged children, women, and marginalized communities. Through education, healthcare, and humanitarian support, we aim to build a compassionate society for all.</p>
+    <p>
+      JD Smile Foundation aims to spread smiles and hope among underprivileged children, women, and marginalized communities. 
+      We focus on education, health, food drives, and environmental protection. 
+      In the future, we plan to open skill development centers, organize regular medical camps, and launch large-scale awareness campaigns to protect nature and empower communities.
+    </p>
+    <img src="about1.png" alt="Environmental Work">
+    <img src="about2.png" alt="Feeding Smiles">
   </section>
 
   <section id="work">
     <h2>Our Work</h2>
     <ul>
-      <li>Education Programs for underprivileged children</li>
-      <li>Free Health Camps in rural & urban areas</li>
-      <li>Smile Drives: Food, Clothes & Essentials Distribution</li>
-      <li>Women Empowerment and Skill Development Workshops</li>
+      <li>Education and Skill Development</li>
+      <li>Free Health Check-ups and Camps</li>
+      <li>Food and Clothing Drives</li>
+      <li>Women Empowerment Workshops</li>
+      <li>Environmental Protection Initiatives</li>
+      <li>Community Awareness Programs</li>
     </ul>
   </section>
 
   <section id="form">
-    <h2>Donation & Support Form</h2>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfltehCN-2okxGDPVck6QE9kYUj9lL5rC1gzj5V8S_zR2X5xQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <h2>Join Us</h2>
+    <p>Fill up the form below to join our mission:</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfltehCN-2okxGDPVck6QE9kYUj9lL5rC1gzj5V8S_zR2X5xQ/viewform?embedded=true" 
+      frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </section>
 
   <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: jdsmilefoundation@gmail.com</p>
-    <p>Phone: +91-9475543551</p>
-    <p>Address: Kolkata, West Bengal, 700067, India</p>
+    <h2>Contact & Social Media</h2>
+    <div class="social-links">
+      <a href="https://chat.whatsapp.com/Iaf1WU6qBmJL5RBL0HwZWS" target="_blank">
+        <img src="whatsapp.png" alt="WhatsApp">
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61577680492558" target="_blank">
+        <img src="facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/jdsmilefoundation?igsh=MWVkc3VhMTR0cWRtcg==" target="_blank">
+        <img src="instagram.png" alt="Instagram">
+      </a>
+      <a href="https://www.youtube.com/@Jdsmilefoundation" target="_blank">
+        <img src="youtube.png" alt="YouTube">
+      </a>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 JD Smile Foundation | Made with ❤️ to spread smiles everywhere</p>
+    <p>&copy; 2025 JD Smile Foundation | Spreading smiles, one step at a time 🌼</p>
   </footer>
-
 </body>
 </html>
