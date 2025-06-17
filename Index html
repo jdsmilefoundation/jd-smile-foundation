@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JD Smile Foundation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5fbff;
+      color: #333;
+    }
+    header {
+      background: #00aaff;
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+      position: relative;
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 48px;
+    }
+    header p {
+      font-size: 20px;
+      margin: 5px 0 20px;
+    }
+    nav {
+      background: #0077aa;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section h2 {
+      color: #0077aa;
+    }
+    .button {
+      background: #0077aa;
+      color: #fff;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 5px;
+    }
+    .button:hover {
